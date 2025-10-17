@@ -13,18 +13,11 @@ A simple tool that:
 - Token-wise language detection
 - Hindi/English ratio output
 
-## Tech Used
+## library  Used
 
 - Python
 - Reddit API (`praw`)
 - Tokenization (e.g., `nltk`, `regex`)
 - Language prediction (rule-based or ML)
 
-##  Example
-
-```text
-Input: "Yeh movie was amazing bro!"
-Output:
-- Hindi: 20%
-- English: 80%
 
