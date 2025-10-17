@@ -1,2 +1,30 @@
-This project scrapes Reddit comments using PRAW, labels each token as Hindi or English, and calculates language fractions. It builds structured datasets for analyzing code-mixed text in NLP research.
-for user id,secret make your reddit profile and user_agent you can use any thing you want 
+ Reddit Comment Language Analyzer (Hindi/English)
+
+A simple tool that:
+
+- Fetches Reddit comments
+- Tokenizes the text
+- Predicts each token's language (Hindi or English)
+- Calculates the fraction of Hindi vs. English tokens
+
+## Features
+
+- Reddit comment scraping
+- Token-wise language detection
+- Hindi/English ratio output
+
+## Tech Used
+
+- Python
+- Reddit API (`praw`)
+- Tokenization (e.g., `nltk`, `regex`)
+- Language prediction (rule-based or ML)
+
+##  Example
+
+```text
+Input: "Yeh movie was amazing bro!"
+Output:
+- Hindi: 20%
+- English: 80%
+
